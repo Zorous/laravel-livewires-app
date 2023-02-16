@@ -22,7 +22,7 @@ class Post extends Component
     ];
 
     protected $listeners = [
-        "deletePost" => "destroy()"
+        "deletePost" => "destroy"
     ];
 
     public function render()
