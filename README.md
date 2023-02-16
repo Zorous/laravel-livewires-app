@@ -3,7 +3,7 @@ It doesn’t have to be this way...
 </h2>
 
 <b>Say hello to Livewire.</b>
-
+<p align="center"><img src="https://user-images.githubusercontent.com/91610919/219359537-481d76dd-1bd8-46a9-8a6a-85c0140f980d.PNG" /></p>
 Hi Livewire!
 
 Livewire is a full-stack framework for <b>Laravel</b> that makes building dynamic interfaces simple, without leaving the comfort of Laravel.
