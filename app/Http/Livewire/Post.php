@@ -36,7 +36,7 @@ class Post extends Component
         $this->description = "";
     }
 
-    public function store(){
+       public function store(){
         //validate form request
 
         $this->validate();
@@ -47,6 +47,8 @@ class Post extends Component
                 'name' =>$this->name,
                 'description' =>$this->description
             ]);
+            // return view('livewire.test');
+
 
             session()->flash('success','Post created Successfully!!');
 
