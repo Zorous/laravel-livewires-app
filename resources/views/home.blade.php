@@ -12,13 +12,10 @@
 </head>
 <body>
 <!-- As a heading -->
-<nav class="navbar navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1">
-        Laravel 10 Livewire CRUD
-    </span>
-  </nav>
+@livewire('navbar')
 
-<div class="container">
+
+{{-- <div class="container">
     <div class="row justify-content-center mt-3">
         <div class="col-md-12">
             <div class="card">
@@ -28,11 +25,11 @@
             </div>
         </div>
     </div>
-
     <div class="row justify-content-center mt-3">
-        @livewire('post')
+
     </div>
-</div>
+</div> --}}
+@livewire('post')
 
     @livewireScripts
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -13,6 +13,8 @@ class Post extends Component
 
     public $posts, $name, $description, $post_id;
     public $updatePost = false;
+    public $test = false;
+        public $post = false;
 
 
     //Validation Rules
@@ -97,6 +99,15 @@ class Post extends Component
     public function cancel(){
         $this->updatePost = false;
         $this->resetFields();
+    }
+
+
+    public function test(){
+        // dd('hana');
+        $this->test = !$this->test;
+    }
+    public function post(){
+        $this->post = true;
     }
 
     public function destroy($id){
